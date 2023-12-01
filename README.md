@@ -12,6 +12,7 @@ Pennybot is a user-friendly news research tool designed for effortless informati
 - Process article content through LangChain's UnstructuredURL Loader
 - Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
+- EXCEPTION: do not parse any site without text as it will throw and "out of index" error.
 
 
 ## Installation
